@@ -17,7 +17,7 @@ app = FastAPI(title="Tibia Tracker API", version="1.0.0")
 # CORS middleware para permitir requisições do frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Em produção, especificar domínios
+    allow_origins=["https://powergamer-frontend.vercel.app"],  # Em produção, especificar domínios
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
