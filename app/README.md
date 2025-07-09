@@ -26,8 +26,8 @@ API construída com [FastAPI](https://fastapi.tiangolo.com/) para rastrear a evo
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/tibia-tracker-api.git
-cd tibia-tracker-api
+git clone https://github.com/seuusuario/powergamer-backend.git
+cd powergamer-backend/app/
 
 # Instale as dependências
 pip install -r requirements.txt
